@@ -1,5 +1,5 @@
 basic.forever(function () {
-    basic.showNumber(0)
+    basic.showNumber(input.compassHeading())
 })
 basic.forever(function () {
     maqueen.writeLED(maqueen.LEDswitch.turnOn, maqueen.LED.LEDLeft)
